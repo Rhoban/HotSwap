@@ -2,7 +2,7 @@
 
 This is a simple hot swap board for dynamixel
 
-## Components
+## Components
 
 * Switch
     * http://fr.farnell.com/arcolectric/c1520ataaa/interrupteur-a-bascule-spdt-ctr/dp/150551
