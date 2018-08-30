@@ -488,17 +488,37 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="rhoban" package="TO-220-ALT" value="MBR1545CTG" x="36.83" y="-27.94" rot="R90"/>
-<element name="U$2" library="rhoban" package="BIG_SPDT" value="BIG_SPDT" x="66.04" y="-17.78"/>
+<element name="U$1" library="rhoban" package="TO-220-ALT" value="MBR1545CTG" x="36.83" y="-27.94" rot="R90">
+<attribute name="FARNELL" value="1431049" x="36.83" y="-27.94" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$2" library="rhoban" package="BIG_SPDT" value="BIG_SPDT" x="66.04" y="-17.78">
+<attribute name="FARNELL" value="150551" x="66.04" y="-17.78" size="1.778" layer="27" display="off"/>
+</element>
 <element name="BAT1" library="rhoban" package="CONNEC_1X02_BIG" value="CONNEC_1X02BIG" x="50.8" y="-31.75" rot="R90"/>
-<element name="DXL1" library="rhoban" package="CONNEC_1X04" value="CONNEC_1X04" x="5.08" y="-11.43" rot="R270"/>
-<element name="DXL2" library="rhoban" package="CONNEC_1X04" value="CONNEC_1X04" x="10.16" y="-11.43" rot="R270"/>
-<element name="DXL3" library="rhoban" package="CONNEC_1X04" value="CONNEC_1X04" x="15.24" y="-11.43" rot="R270"/>
-<element name="DXL4" library="rhoban" package="CONNEC_1X04" value="CONNEC_1X04" x="20.32" y="-11.43" rot="R270"/>
-<element name="DXL5" library="rhoban" package="CONNEC_1X04" value="CONNEC_1X04" x="25.4" y="-11.43" rot="R270"/>
-<element name="DXL6" library="rhoban" package="CONNEC_1X04" value="CONNEC_1X04" x="30.48" y="-11.43" rot="R270"/>
-<element name="DXL7" library="rhoban" package="CONNEC_1X04" value="CONNEC_1X04" x="35.56" y="-11.43" rot="R270"/>
-<element name="DXL8" library="rhoban" package="CONNEC_1X04" value="CONNEC_1X04" x="40.64" y="-11.43" rot="R270"/>
+<element name="DXL1" library="rhoban" package="CONNEC_1X04" value="CONNEC_1X04" x="5.08" y="-11.43" rot="R270">
+<attribute name="FARNELL" value="9979620 OR 1104204" x="5.08" y="-11.43" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="DXL2" library="rhoban" package="CONNEC_1X04" value="CONNEC_1X04" x="10.16" y="-11.43" rot="R270">
+<attribute name="FARNELL" value="9979620 OR 1104204" x="10.16" y="-11.43" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="DXL3" library="rhoban" package="CONNEC_1X04" value="CONNEC_1X04" x="15.24" y="-11.43" rot="R270">
+<attribute name="FARNELL" value="9979620 OR 1104204" x="15.24" y="-11.43" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="DXL4" library="rhoban" package="CONNEC_1X04" value="CONNEC_1X04" x="20.32" y="-11.43" rot="R270">
+<attribute name="FARNELL" value="9979620 OR 1104204" x="20.32" y="-11.43" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="DXL5" library="rhoban" package="CONNEC_1X04" value="CONNEC_1X04" x="25.4" y="-11.43" rot="R270">
+<attribute name="FARNELL" value="9979620 OR 1104204" x="25.4" y="-11.43" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="DXL6" library="rhoban" package="CONNEC_1X04" value="CONNEC_1X04" x="30.48" y="-11.43" rot="R270">
+<attribute name="FARNELL" value="9979620 OR 1104204" x="30.48" y="-11.43" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="DXL7" library="rhoban" package="CONNEC_1X04" value="CONNEC_1X04" x="35.56" y="-11.43" rot="R270">
+<attribute name="FARNELL" value="9979620 OR 1104204" x="35.56" y="-11.43" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="DXL8" library="rhoban" package="CONNEC_1X04" value="CONNEC_1X04" x="40.64" y="-11.43" rot="R270">
+<attribute name="FARNELL" value="9979620 OR 1104204" x="40.64" y="-11.43" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="BAT2" library="rhoban" package="CONNEC_1X02_BIG" value="CONNEC_1X02BIG" x="50.8" y="-2.54" rot="R270"/>
 <element name="U$3" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="39.8" y="-3.61"/>
 <element name="U$4" library="SparkFun-Electromechanical" package="STAND-OFF" value="" x="3.81" y="-31.75"/>

@@ -544,17 +544,37 @@
 </class>
 </classes>
 <parts>
-<part name="U$1" library="rhoban" deviceset="MBR1545CTG" device=""/>
-<part name="U$2" library="rhoban" deviceset="BIG_SPDT" device=""/>
+<part name="U$1" library="rhoban" deviceset="MBR1545CTG" device="">
+<attribute name="FARNELL" value="1431049"/>
+</part>
+<part name="U$2" library="rhoban" deviceset="BIG_SPDT" device="">
+<attribute name="FARNELL" value="150551"/>
+</part>
 <part name="BAT1" library="rhoban" deviceset="CONNEC_1X02" device="BIG"/>
-<part name="DXL1" library="rhoban" deviceset="CONNEC_1X04" device=""/>
-<part name="DXL2" library="rhoban" deviceset="CONNEC_1X04" device=""/>
-<part name="DXL3" library="rhoban" deviceset="CONNEC_1X04" device=""/>
-<part name="DXL4" library="rhoban" deviceset="CONNEC_1X04" device=""/>
-<part name="DXL5" library="rhoban" deviceset="CONNEC_1X04" device=""/>
-<part name="DXL6" library="rhoban" deviceset="CONNEC_1X04" device=""/>
-<part name="DXL7" library="rhoban" deviceset="CONNEC_1X04" device=""/>
-<part name="DXL8" library="rhoban" deviceset="CONNEC_1X04" device=""/>
+<part name="DXL1" library="rhoban" deviceset="CONNEC_1X04" device="">
+<attribute name="FARNELL" value="9979620 OR 1104204"/>
+</part>
+<part name="DXL2" library="rhoban" deviceset="CONNEC_1X04" device="">
+<attribute name="FARNELL" value="9979620 OR 1104204"/>
+</part>
+<part name="DXL3" library="rhoban" deviceset="CONNEC_1X04" device="">
+<attribute name="FARNELL" value="9979620 OR 1104204"/>
+</part>
+<part name="DXL4" library="rhoban" deviceset="CONNEC_1X04" device="">
+<attribute name="FARNELL" value="9979620 OR 1104204"/>
+</part>
+<part name="DXL5" library="rhoban" deviceset="CONNEC_1X04" device="">
+<attribute name="FARNELL" value="9979620 OR 1104204"/>
+</part>
+<part name="DXL6" library="rhoban" deviceset="CONNEC_1X04" device="">
+<attribute name="FARNELL" value="9979620 OR 1104204"/>
+</part>
+<part name="DXL7" library="rhoban" deviceset="CONNEC_1X04" device="">
+<attribute name="FARNELL" value="9979620 OR 1104204"/>
+</part>
+<part name="DXL8" library="rhoban" deviceset="CONNEC_1X04" device="">
+<attribute name="FARNELL" value="9979620 OR 1104204"/>
+</part>
 <part name="BAT2" library="rhoban" deviceset="CONNEC_1X02" device="BIG"/>
 <part name="LOGIC" library="rhoban" deviceset="CONNEC_1X02" device="BIG"/>
 </parts>
@@ -563,17 +583,37 @@
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="66.04" y="53.34"/>
-<instance part="U$2" gate="G$1" x="53.34" y="81.28"/>
+<instance part="U$1" gate="G$1" x="66.04" y="53.34">
+<attribute name="FARNELL" x="66.04" y="53.34" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="U$2" gate="G$1" x="53.34" y="81.28">
+<attribute name="FARNELL" x="53.34" y="81.28" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="BAT1" gate="G$1" x="27.94" y="60.96"/>
-<instance part="DXL1" gate="G$1" x="-5.08" y="22.86"/>
-<instance part="DXL2" gate="G$1" x="12.7" y="22.86"/>
-<instance part="DXL3" gate="G$1" x="30.48" y="22.86"/>
-<instance part="DXL4" gate="G$1" x="48.26" y="22.86"/>
-<instance part="DXL5" gate="G$1" x="63.5" y="22.86"/>
-<instance part="DXL6" gate="G$1" x="81.28" y="22.86"/>
-<instance part="DXL7" gate="G$1" x="96.52" y="22.86"/>
-<instance part="DXL8" gate="G$1" x="114.3" y="22.86"/>
+<instance part="DXL1" gate="G$1" x="-5.08" y="22.86">
+<attribute name="FARNELL" x="-5.08" y="22.86" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="DXL2" gate="G$1" x="12.7" y="22.86">
+<attribute name="FARNELL" x="12.7" y="22.86" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="DXL3" gate="G$1" x="30.48" y="22.86">
+<attribute name="FARNELL" x="30.48" y="22.86" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="DXL4" gate="G$1" x="48.26" y="22.86">
+<attribute name="FARNELL" x="48.26" y="22.86" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="DXL5" gate="G$1" x="63.5" y="22.86">
+<attribute name="FARNELL" x="63.5" y="22.86" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="DXL6" gate="G$1" x="81.28" y="22.86">
+<attribute name="FARNELL" x="81.28" y="22.86" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="DXL7" gate="G$1" x="96.52" y="22.86">
+<attribute name="FARNELL" x="96.52" y="22.86" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="DXL8" gate="G$1" x="114.3" y="22.86">
+<attribute name="FARNELL" x="114.3" y="22.86" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="BAT2" gate="G$1" x="27.94" y="48.26"/>
 <instance part="LOGIC" gate="G$1" x="114.3" y="50.8"/>
 </instances>
@@ -584,231 +624,234 @@
 <segment>
 <pinref part="U$2" gate="G$1" pin="P$2"/>
 <wire x1="73.66" y1="83.82" x2="78.74" y2="83.82" width="0.1524" layer="91"/>
-<label x="78.74" y="83.82" size="1.778" layer="95"/>
+<label x="78.74" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="BAT2" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<label x="20.32" y="50.8" size="1.778" layer="95"/>
+<label x="25.4" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="D2"/>
 <wire x1="50.8" y1="43.18" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
-<label x="43.18" y="43.18" size="1.778" layer="95"/>
+<label x="45.72" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="B2" class="1">
 <segment>
 <pinref part="U$2" gate="G$1" pin="P$3"/>
 <wire x1="73.66" y1="78.74" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
-<label x="78.74" y="78.74" size="1.778" layer="95"/>
+<label x="78.74" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="BAT1" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="63.5" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
-<label x="20.32" y="63.5" size="1.778" layer="95"/>
+<label x="25.4" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="D1"/>
 <wire x1="50.8" y1="66.04" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
-<label x="43.18" y="66.04" size="1.778" layer="95"/>
+<label x="45.72" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VLOGIC" class="1">
 <segment>
 <pinref part="U$1" gate="G$1" pin="COM"/>
 <wire x1="86.36" y1="53.34" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
-<label x="88.9" y="53.34" size="1.778" layer="95"/>
+<label x="88.9" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="LOGIC" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="53.34" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
-<label x="106.68" y="53.34" size="1.778" layer="95"/>
+<label x="111.76" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VMOTOR" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="P$1"/>
 <wire x1="38.1" y1="81.28" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
-<label x="22.86" y="81.28" size="1.778" layer="95"/>
+<label x="33.02" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL1" gate="G$1" pin="2"/>
 <wire x1="-2.54" y1="27.94" x2="-7.62" y2="27.94" width="0.1524" layer="91"/>
-<label x="-12.7" y="27.94" size="1.778" layer="95"/>
+<label x="-7.62" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL2" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="27.94" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
-<label x="5.08" y="27.94" size="1.778" layer="95"/>
+<label x="10.16" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL3" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="27.94" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
-<label x="22.86" y="27.94" size="1.778" layer="95"/>
+<label x="27.94" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL4" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="27.94" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
-<label x="40.64" y="27.94" size="1.778" layer="95"/>
+<label x="45.72" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL5" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="27.94" x2="60.96" y2="27.94" width="0.1524" layer="91"/>
-<label x="55.88" y="27.94" size="1.778" layer="95"/>
+<label x="60.96" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL6" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="27.94" x2="78.74" y2="27.94" width="0.1524" layer="91"/>
-<label x="73.66" y="27.94" size="1.778" layer="95"/>
+<label x="78.74" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL8" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="27.94" x2="111.76" y2="27.94" width="0.1524" layer="91"/>
-<label x="106.68" y="27.94" size="1.778" layer="95"/>
+<label x="111.76" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL7" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="27.94" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
-<label x="88.9" y="27.94" size="1.778" layer="95"/>
+<label x="93.98" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="BAT1" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
-<label x="20.32" y="60.96" size="1.778" layer="95"/>
+<label x="25.4" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL1" gate="G$1" pin="1"/>
 <wire x1="-2.54" y1="30.48" x2="-7.62" y2="30.48" width="0.1524" layer="91"/>
-<label x="-12.7" y="30.48" size="1.778" layer="95"/>
+<label x="-7.62" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL2" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="30.48" x2="10.16" y2="30.48" width="0.1524" layer="91"/>
-<label x="5.08" y="30.48" size="1.778" layer="95"/>
+<label x="10.16" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL3" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="30.48" x2="27.94" y2="30.48" width="0.1524" layer="91"/>
-<label x="22.86" y="30.48" size="1.778" layer="95"/>
+<label x="27.94" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL4" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="30.48" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
-<label x="40.64" y="30.48" size="1.778" layer="95"/>
+<label x="45.72" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL5" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="30.48" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
-<label x="55.88" y="30.48" size="1.778" layer="95"/>
+<label x="60.96" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL6" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="30.48" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
-<label x="73.66" y="30.48" size="1.778" layer="95"/>
+<label x="78.74" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL7" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="30.48" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
+<label x="93.98" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL8" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="30.48" x2="111.76" y2="30.48" width="0.1524" layer="91"/>
-<label x="106.68" y="30.48" size="1.778" layer="95"/>
+<label x="111.76" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="BAT2" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="48.26" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<label x="20.32" y="48.26" size="1.778" layer="95"/>
+<label x="25.4" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="LOGIC" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="50.8" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
-<label x="106.68" y="50.8" size="1.778" layer="95"/>
+<label x="111.76" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="A" class="0">
 <segment>
 <pinref part="DXL1" gate="G$1" pin="3"/>
 <wire x1="-2.54" y1="25.4" x2="-7.62" y2="25.4" width="0.1524" layer="91"/>
-<label x="-12.7" y="25.4" size="1.778" layer="95"/>
+<label x="-7.62" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL2" gate="G$1" pin="3"/>
 <wire x1="15.24" y1="25.4" x2="10.16" y2="25.4" width="0.1524" layer="91"/>
-<label x="5.08" y="25.4" size="1.778" layer="95"/>
+<label x="10.16" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL3" gate="G$1" pin="3"/>
 <wire x1="33.02" y1="25.4" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
-<label x="22.86" y="25.4" size="1.778" layer="95"/>
+<label x="27.94" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL4" gate="G$1" pin="3"/>
 <wire x1="50.8" y1="25.4" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
-<label x="40.64" y="25.4" size="1.778" layer="95"/>
+<label x="45.72" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL5" gate="G$1" pin="3"/>
 <wire x1="66.04" y1="25.4" x2="60.96" y2="25.4" width="0.1524" layer="91"/>
-<label x="55.88" y="25.4" size="1.778" layer="95"/>
+<label x="60.96" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL6" gate="G$1" pin="3"/>
 <wire x1="83.82" y1="25.4" x2="78.74" y2="25.4" width="0.1524" layer="91"/>
-<label x="73.66" y="25.4" size="1.778" layer="95"/>
+<label x="78.74" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL7" gate="G$1" pin="3"/>
 <wire x1="99.06" y1="25.4" x2="93.98" y2="25.4" width="0.1524" layer="91"/>
+<label x="93.98" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL8" gate="G$1" pin="3"/>
 <wire x1="116.84" y1="25.4" x2="111.76" y2="25.4" width="0.1524" layer="91"/>
-<label x="106.68" y="25.4" size="1.778" layer="95"/>
+<label x="111.76" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="B" class="0">
 <segment>
 <pinref part="DXL1" gate="G$1" pin="4"/>
 <wire x1="-2.54" y1="22.86" x2="-7.62" y2="22.86" width="0.1524" layer="91"/>
-<label x="-12.7" y="22.86" size="1.778" layer="95"/>
+<label x="-7.62" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL2" gate="G$1" pin="4"/>
 <wire x1="15.24" y1="22.86" x2="10.16" y2="22.86" width="0.1524" layer="91"/>
-<label x="5.08" y="22.86" size="1.778" layer="95"/>
+<label x="10.16" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL3" gate="G$1" pin="4"/>
 <wire x1="33.02" y1="22.86" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
-<label x="22.86" y="22.86" size="1.778" layer="95"/>
+<label x="27.94" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL4" gate="G$1" pin="4"/>
 <wire x1="50.8" y1="22.86" x2="45.72" y2="22.86" width="0.1524" layer="91"/>
-<label x="40.64" y="22.86" size="1.778" layer="95"/>
+<label x="45.72" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL5" gate="G$1" pin="4"/>
 <wire x1="66.04" y1="22.86" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
-<label x="55.88" y="22.86" size="1.778" layer="95"/>
+<label x="60.96" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL6" gate="G$1" pin="4"/>
 <wire x1="83.82" y1="22.86" x2="78.74" y2="22.86" width="0.1524" layer="91"/>
-<label x="73.66" y="22.86" size="1.778" layer="95"/>
+<label x="78.74" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL7" gate="G$1" pin="4"/>
 <wire x1="99.06" y1="22.86" x2="93.98" y2="22.86" width="0.1524" layer="91"/>
+<label x="93.98" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="DXL8" gate="G$1" pin="4"/>
 <wire x1="116.84" y1="22.86" x2="111.76" y2="22.86" width="0.1524" layer="91"/>
-<label x="106.68" y="22.86" size="1.778" layer="95"/>
+<label x="111.76" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
